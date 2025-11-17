@@ -5,7 +5,7 @@
 | Balqis Sani Sabillah        |  5027241002 | 
 
 ## Topologi 
-<img width="1721" height="816" alt="Screenshot 2025-11-16 201552" src="https://github.com/user-attachments/assets/ae125c90-ed10-4564-ad98-37b1e258e66a" />
+<img width="1721" height="816" alt="Screenshot 2025-11-16 201552" src="https://github.com/user-attachments/assets/ae125c90-ed10-4564-ad98-37b1e258e66a" />  
 
 
 | Nama Subnet |                                      Rute                                     | Jumlah IP (host + router) | Netmask |
@@ -36,7 +36,7 @@
 |    TOTAL    |                                                                               |            3219           |   /20   |
 
 ## POHON VLSM
-<img width="3035" height="2338" alt="pohon modul 4" src="https://github.com/user-attachments/assets/b5730ef4-26ca-472f-ade2-c6e0f9739fef" />
+<img width="3035" height="2338" alt="pohon modul 4" src="https://github.com/user-attachments/assets/b5730ef4-26ca-472f-ade2-c6e0f9739fef" />  
 
 
 | Subnet= |  Network ID |     Netmask     | Prefix |   Broadcast  |          Range IP         |
@@ -64,6 +64,14 @@
 |   B12   | 10.84.6.0   | 255.255.254.0   |   /23  | 10.84.7.255  |  10.84.6.1 – 10.84.7.254  |
 |   B13   | 10.84.0.192 | 255.255.255.192 |   /26  | 10.84.0.255  | 10.84.0.193 – 10.84.0.254 |
 |   B14   | 10.84.0.96  | 255.255.255.224 |   /27  | 10.84.0.127  |  10.84.0.97 – 10.84.0.126 |
+
+### IP table
+```
+ip route <NID> <Netmask><Gateaway>
+
+```
+<img width="600" height="438" alt="Screenshot 2025-11-17 143025" src="https://github.com/user-attachments/assets/b07d0904-e62b-4a6c-925a-f720968720fd" />    
+
 
 
 
