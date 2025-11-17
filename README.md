@@ -39,6 +39,7 @@
 <img width="3035" height="2338" alt="pohon modul 4" src="https://github.com/user-attachments/assets/b5730ef4-26ca-472f-ade2-c6e0f9739fef" />  
 
 
+
 | Subnet= |  Network ID |     Netmask     | Prefix |   Broadcast  |          Range IP         |
 |:-------:|:-----------:|:---------------:|:------:|:------------:|:-------------------------:|
 |    A1   | 10.84.0.0   | 255.255.255.252 |   /30  | 10.84.0.3    |   10.84.0.1 – 10.84.0.2   |
